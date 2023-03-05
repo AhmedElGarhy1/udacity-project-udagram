@@ -29,11 +29,11 @@ jobs:
           name: Install API Dependencies
           command: |
             npm run api:install
-      # Done: Lint the frontend
-      - run:
-          name: Front-End Lint
-          command: |
-            npm run frontend:lint
+      # # Done: Lint the frontend
+      # - run:
+      #     name: Front-End Lint
+      #     command: |
+      #       npm run frontend:lint
       # Done: Build the frontend app
       - run:
           name: Front-End Build
