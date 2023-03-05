@@ -1,7 +1,4 @@
 {
-  "engines": {
-    "node": "14.15.0"
-  },
   "name": "udagram-api",
   "version": "2.0.0",
   "description": "",
